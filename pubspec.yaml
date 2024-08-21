@@ -9,15 +9,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^2.0.10+1
 
 dev_dependencies:
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
-  fonts: 
+  assets:
+    - assets/vectors/
+    - assets/images/
+  fonts:
     - family: 'Poppins'
       fonts:
         - asset: assets/fonts/Poppins-Thin.ttf
@@ -60,5 +64,3 @@ flutter:
         - asset: assets/fonts/Poppins-BlackItalic.ttf
           weight: 900
           style: italic
-
-      
