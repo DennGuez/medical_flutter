@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medical/home_screen.dart';
+import 'package:medical/screens/home_screen.dart';
 
 void main() {
   runApp(const MainApp());
